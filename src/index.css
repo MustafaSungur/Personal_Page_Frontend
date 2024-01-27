@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  @apply border-b-2 border-b-yellow-500 pb-1;
+}
+
+.home-bg {
+  background-image: url("./assets/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  background-color: #fff;
+}
+
+.iconhover {
+  position: relative;
+  transform: translateY(0);
+  transition: transform 300ms; /* transition süresi uzatıldı */
+}
+
+.iconhover:hover {
+  transform: translateY(-20%);
+}
+
+.iconhover .tooltip {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  bottom: 100%; /* İstediğiniz konuma göre ayarlayabilirsiniz */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  transition: opacity 300ms, visibility 300ms;
+}
+
+.iconhover:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.btn {
+  @apply bg-violet-200 text-[#00796B] px-2 py-1 rounded-lg mb-1 cursor-pointer  hover:bg-violet-300 transition text-lg;
+}
