@@ -62,7 +62,7 @@ const Home = () => {
           </div>
           <About />
 
-          <div className="mt-12">
+          <div className="mt-7">
             <h2 className="text-xl text-zinc-500">
               Technologies I experienced
             </h2>

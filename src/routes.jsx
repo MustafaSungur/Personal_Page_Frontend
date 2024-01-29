@@ -1,4 +1,3 @@
-import Blog from "./pages/Blog";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 
@@ -11,10 +10,6 @@ const routes = [
   {
     path: "/projects",
     element: <Projects />,
-  },
-  {
-    path: "/blog",
-    element: <Blog />,
   },
 ];
 
