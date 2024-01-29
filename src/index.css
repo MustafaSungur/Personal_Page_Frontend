@@ -46,5 +46,5 @@
 }
 
 .btn {
-  @apply bg-violet-200 text-[#00796B] px-2 py-1 rounded-lg mb-1 cursor-pointer  hover:bg-violet-300 transition text-lg;
+  @apply bg-violet-200 text-[#00796B] px-2 py-1 rounded-lg mb-1 cursor-pointer  hover:bg-violet-300 transition md:text-lg;
 }

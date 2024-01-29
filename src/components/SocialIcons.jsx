@@ -4,7 +4,7 @@ function SocialIcons() {
   const iconSize = 20; // İkon boyutu
 
   return (
-    <div className="flex items-end">
+    <div className="flex items-end gap-2 md:gap-0 flex-col md:flex-row">
       {/* LinkedIn */}
       <div className="rounded-full p-2 bg-gray-500   iconhover">
         <a
@@ -40,6 +40,7 @@ function SocialIcons() {
         </a>
         <span className="tooltip">Twitter</span>
       </div>
+
       <div className="rounded-full p-2 bg-gray-500  ml-4 iconhover">
         <a
           href="https://drive.google.com/file/d/1ZTD8DleVEUdSHRXeDcthqORefhdhxWUP/view?usp=sharing"

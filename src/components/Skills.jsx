@@ -1,18 +1,11 @@
-import {
-  FaJs,
-  FaReact,
-  FaNodeJs,
-  FaDocker,
-  FaLinux,
-  FaPython,
-} from "react-icons/fa";
+import { FaReact, FaNodeJs, FaDocker, FaLinux, FaPython } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { TbBrandCSharp, TbBrandReactNative } from "react-icons/tb";
 const Skills = () => {
   const iconSize = 30;
   return (
-    <div className="flex flex-wrap gap-16 mt-3">
-      <div className="flex flex-col gap-5">
+    <div className="flex flex-wrap  gap-8 md:gap-16 mx-auto mt-5 justify-center md:justify-normal ">
+      <div className="flex flex-col gap-5 ">
         <div className="grid grid-flow-col items-center gap-2">
           <FaReact size={iconSize} color="#2980b9" />
           <span>React</span>
@@ -24,7 +17,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 ">
         <div className="grid grid-flow-col items-center gap-2">
           <FaNodeJs fontSize={iconSize} color="#27ae60" />
           <span>NodeJs</span>
@@ -45,7 +38,7 @@ const Skills = () => {
           <span>Docker</span>
         </div>
       </div>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 ">
         <div className="grid grid-flow-col items-center gap-2">
           <FaPython fontSize={iconSize} color="#FFB300" />
           <span>Python</span>

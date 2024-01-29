@@ -39,13 +39,13 @@ const Home = () => {
   return (
     <div
       ref={scope}
-      className="max-w-2xl mx-auto font-sans tracking-wide h-screen"
+      className="max-w-2xl mx-auto font-sans tracking-wide min-h-screen p-4 sm:p-0"
     >
-      <div className=" text-gray-700 flex justify-center">
-        <div className="flex flex-col mx-auto">
-          <div className="flex">
-            <div className="flex gap-5 p-5  ">
-              <div className="h-32 w-32 rounded-full overflow-hidden">
+      <div className="text-gray-700 flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center mx-auto">
+          <div className="flex flex-col sm:flex-row items-center sm:items-start">
+            <div className="flex gap-5 p-3 sm:p-5">
+              <div className="h-32 w-32 rounded-full overflow-hidden hidden md:inline">
                 <img
                   src={photo}
                   alt="photo"
@@ -53,12 +53,12 @@ const Home = () => {
                 />
               </div>
 
-              <div className="text-zinc-500 ">
-                <h1 className="text-2xl ">Mustafa Sungur Öztürk</h1>
-                <h2 className="text-xl">Full Stack Developer</h2>
+              <div className="text-center sm:text-left text-zinc-500  my-auto md:my-0">
+                <h1 className="text-xl md:text-2xl">Mustafa Sungur Öztürk</h1>
+                <h2 className="text-lg md:text-xl">Full Stack Developer</h2>
               </div>
+              <SocialIcons />
             </div>
-            <SocialIcons />
           </div>
           <About />
 
