@@ -1,4 +1,12 @@
-import smart from "/src/assets/smartEDU.png";
+import smartEDU from "/src/assets/smartEDU.png";
+import dukkan from "/src/assets/dukkan.png";
+import Pcat from "/src/assets/Pcat.png";
+import NewsApp from "/src/assets/NewsApp.png";
+import ProductList from "/src/assets/ProductList.png";
+import cleanBlog from "/src/assets/cleanBlog.png";
+import ShoppingWeb from "/src/assets/shopping.png";
+import userInfo from "/src/assets/userInfo.png";
+import todo from "/src/assets/Todo.png";
 export const projectRepo = [
   {
     name: "Smart Education",
@@ -7,7 +15,7 @@ export const projectRepo = [
     category: "NodeJs",
     url: "https://github.com/MustafaSungur/Smart_Education",
 
-    imgURL: smart,
+    imgURL: smartEDU,
   },
   {
     name: "Dukkan",
@@ -16,7 +24,7 @@ export const projectRepo = [
     category: "React Native",
     url: "https://github.com/MustafaSungur/Dukkan",
 
-    imgURL: "/src/assets/dukkan.png",
+    imgURL: dukkan,
   },
   {
     name: "Pcat",
@@ -25,7 +33,7 @@ export const projectRepo = [
     category: "NodeJs",
     url: "https://github.com/MustafaSungur/Pcat",
 
-    imgURL: "/src/assets/Pcat.png",
+    imgURL: Pcat,
   },
   {
     name: "Clean Blog",
@@ -34,7 +42,7 @@ export const projectRepo = [
     category: "NodeJs",
     url: "https://github.com/MustafaSungur/Clean_Blog",
 
-    imgURL: "/src/assets/cleanBlog.png",
+    imgURL: cleanBlog,
   },
 
   {
@@ -44,7 +52,7 @@ export const projectRepo = [
     category: "React Native",
     url: "https://github.com/MustafaSungur/NewsApp",
 
-    imgURL: "/src/assets/NewsApp.png",
+    imgURL: NewsApp,
   },
   {
     name: "Product List Page",
@@ -53,7 +61,7 @@ export const projectRepo = [
     category: "React Native",
     url: "https://github.com/MustafaSungur/Product_list_page",
 
-    imgURL: "/src/assets/ProductList.png",
+    imgURL: ProductList,
   },
   {
     name: "Shopping Website",
@@ -62,7 +70,7 @@ export const projectRepo = [
     category: "Angular",
     url: "https://github.com/MustafaSungur/Shopping_Website",
 
-    imgURL: "/src/assets/shopping.png",
+    imgURL: ShoppingWeb,
   },
   {
     name: "User Registration System",
@@ -71,7 +79,7 @@ export const projectRepo = [
     category: "Angular",
     url: "https://github.com/MustafaSungur/Users_info_Angular",
 
-    imgURL: "/src/assets/userInfo.png",
+    imgURL: userInfo,
   },
   {
     name: "Todo App :)",
@@ -79,6 +87,6 @@ export const projectRepo = [
       "My first project with React. You can add, update, delete and mark your tasks as completed.",
     category: "React",
     url: "https://github.com/MustafaSungur/TodoApp_React",
-    imgURL: "/src/assets/Todo.png",
+    imgURL: todo,
   },
 ];
