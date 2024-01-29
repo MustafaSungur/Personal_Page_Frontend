@@ -1,3 +1,4 @@
+import smart from "/src/assets/smartEDU.png";
 export const projectRepo = [
   {
     name: "Smart Education",
@@ -6,7 +7,7 @@ export const projectRepo = [
     category: "NodeJs",
     url: "https://github.com/MustafaSungur/Smart_Education",
 
-    imgURL: "/src/assets/smartEDU.png",
+    imgURL: smart,
   },
   {
     name: "Dukkan",
