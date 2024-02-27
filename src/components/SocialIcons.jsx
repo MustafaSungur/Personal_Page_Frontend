@@ -43,7 +43,7 @@ function SocialIcons() {
 
       <div className="rounded-full p-2 bg-gray-500  ml-4 iconhover">
         <a
-          href="https://drive.google.com/file/d/18EeAr5Lsg8hdSApk8pdsKHZnWiduBj9I/view?usp=sharing"
+          href="https://drive.google.com/file/d/1BIr5lK8v_iPTO3IQ7DhNetk6fDTAso2A/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
