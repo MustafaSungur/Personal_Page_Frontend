@@ -1,5 +1,5 @@
 import { FaReact, FaNodeJs, FaDocker, FaLinux, FaPython } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiDotnet } from "react-icons/si";
 import { TbBrandCSharp, TbBrandReactNative } from "react-icons/tb";
 const Skills = () => {
   const iconSize = 30;
@@ -12,8 +12,8 @@ const Skills = () => {
         </div>
 
         <div className="grid grid-flow-col items-center gap-2">
-          <SiTailwindcss fontSize={iconSize} color="#2980b9" />
-          <span>Tailwind</span>
+          <SiDotnet fontSize={iconSize} color="#2980b9" />
+          <span>.Net</span>
         </div>
       </div>
 
