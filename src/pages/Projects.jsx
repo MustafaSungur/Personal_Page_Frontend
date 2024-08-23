@@ -33,7 +33,7 @@ const Projects = () => {
   return (
     <div
       ref={scope}
-      className="flex flex-wrap justify-center items-stretch gap-5 p-5"
+      className="flex flex-wrap justify-center items-stretch gap-5 p-5 mb-16"
     >
       {projectRepo.map((project, index) => (
         <ProjectCard project={project} key={index} />
