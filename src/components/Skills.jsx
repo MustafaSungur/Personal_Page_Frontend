@@ -13,7 +13,7 @@ const Skills = () => {
 
         <div className="grid grid-flow-col items-center gap-2">
           <SiDotnet fontSize={iconSize} color="#2980b9" />
-          <span>.Net</span>
+          <span>.Net Core</span>
         </div>
       </div>
 
