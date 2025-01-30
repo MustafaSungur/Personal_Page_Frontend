@@ -46,7 +46,7 @@ function SocialIcons() {
 
       {/* CV */}
       <a
-        href="https://drive.google.com/file/d/1NRec2seuC0tDAuZt345208rgm85pdIdX/view?usp=sharing"
+        href="https://drive.google.com/file/d/1IjaVw3RolpBaGUqP-LAz3mMu8yvkqdb6/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
